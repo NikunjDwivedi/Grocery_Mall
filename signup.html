@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grocery Mall - Sign Up</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <img src="images/logo.jpg" alt="Grocery Mall Logo" class="logo">
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="products.html">Products</a>
+            <a href="cart.html">Cart</a>
+            <a href="login.html">Login</a>
+        </nav>
+    </header>
+    <main>
+        <h2>Sign Up</h2>
+        <form id="signupForm" onsubmit="return validateSignupForm()">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            <span id="nameError" class="error"></span>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <span id="emailError" class="error"></span>
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" required>
+            <span id="passwordError" class="error"></span>
+            <button type="submit">Sign Up</button>
+            <span id="signupError" class="error"></span>
+        </form>
+        <p>Already have an account? <a href="login.html">Login</a></p>
+    </main>
+    <footer>
+        <p>&copy; 2024 Grocery Mall. All rights reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>

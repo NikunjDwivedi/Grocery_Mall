@@ -1,0 +1,161 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #180c27;
+    color: rgb(201, 149, 246);
+    padding: 10px 0;
+}
+
+header img.logo {
+    width: 50px;
+    border-radius: 50%;
+    padding-top: 5px;
+    padding-left: 18px;
+    padding-right: 15px;
+    padding-bottom: 0px;
+}
+
+.txt {
+    text-align: center;
+    padding-bottom: 40px;
+    margin-bottom: 40px;
+}
+nav a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 18px;
+    margin: 4px;
+    margin-bottom: 40px;
+    padding-bottom: 40px;
+    padding: 8px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+main {
+    padding: 0px;
+    text-align: center;
+}
+
+footer {
+    background-color:  rgba(0, 0, 0, 0.5);
+    color: white;
+    text-align: center;
+    padding: 0px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+.image-container {
+    position: relative;
+    display: inline-block;
+}
+
+.main-image {
+    width: 1400px;
+    height: 800px;
+    border-radius: 0px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.text-overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 19px;
+    border-radius: 10px;
+}
+
+.text-overlay h2 {
+    margin: 0;
+    font-size: 2em;
+}
+
+.text-overlay p {
+    margin: 10px 0 0;
+    font-size: 1.2em;
+}
+
+form {
+    max-width: 400px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+form label {
+    margin-bottom: 5px;
+}
+
+form input {
+    margin-bottom: 10px;
+    padding: 8px;
+    font-size: 1em;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+form button {
+    padding: 10px;
+    font-size: 1em;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+form button:hover {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.error {
+    color: rgb(255, 0, 157);
+    font-size: 0.9em;
+    display: none;
+}
+
+.products {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.product {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    max-width: 200px;
+    text-align: center;
+}
+
+.product img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.product h3 {
+    margin: 10px 0;
+}
+
+.product p {
+    color: rgba(0, 0, 0, 0.5);
+    font-weight: bold;
+}
